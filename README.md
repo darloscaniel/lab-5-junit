@@ -68,13 +68,6 @@ target/site/jacoco/index.html
 
 Abra em um navegador para ver a cobertura por pacote, classe, método e linha.
 
-Para reabrir o relatório:
-
-```bash
-xdg-open target/site/jacoco/index.html   # Linux
-open target/site/jacoco/index.html       # macOS
-```
-
 ---
 
 ## Exercício 1 — Triângulo
@@ -100,8 +93,6 @@ Casos cobertos:
 
 ### Evidência de cobertura
 
-> Substituir pelo screenshot após rodar `mvn clean test` localmente.
->
 > Caminho do relatório: `target/site/jacoco/br.edu.lab5.exercicio1/index.html`
 >
 > ![Cobertura Exercício 1](docs/coverage-ex1.png)
